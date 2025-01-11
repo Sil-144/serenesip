@@ -79,6 +79,8 @@ nav {
   padding: 30px 0;
   background-color: #49281a;
   text-align: center;
+  position: sticky;
+  top: 0px;
 }
 nav a {
   color: #f0e2c5;
@@ -89,11 +91,31 @@ nav a {
 nav a:hover {
   border-bottom: 2px solid #f0e2c5;
 }
+.container {
+  width: 200px;
+  height: 150px;
+  margin: 20px auto;
+  position: relative;
+  /* background : color image repeat attachment position */
+}
+.bg-small {
+  position: absolute;
+  left: 200px;
+  background-image: url(images/bg-img3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.bg-large {
+  position: absolute;
+  right: 200px;
+  background-image: url(images/bg-img1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 /* overmenu section */
 #ourmenu,
 #aboutus,
 #contactus {
-  border: 2px solid black;
   padding: 10px;
 }
 #ourmenu h2,
@@ -103,13 +125,44 @@ nav a:hover {
   font-size: 2rem;
   color: #49281a;
 }
-.menu {
-  border: 2px solid black;
-}
+/* about us section */
 #aboutus p,
 #contactus p {
   padding: 10px 0;
   text-align: justify;
   line-height: 1.5;
+  font-family: "Lato", serif;
+}
+/* contactus section */
+#contactus form {
+  font-family: "Lato", serif;
+  width: 70%;
+}
+form div {
+  margin-bottom: 5px;
+  padding: 10px 0;
+}
+.form-label {
+  width: 30%;
+  display: inline-block;
+}
+.form-control {
+  width: 60%;
+  border: none;
+  outline: none;
+  background-color: #f0e2c5;
+  border-bottom: 1px dotted #49281a;
+}
+.but {
+  width: 200px;
+  background-color: #49281a;
+  color: #f0e2c5;
+  padding: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+footer {
+  text-align: center;
+  padding: 25px 0;
   font-family: "Lato", serif;
 }
