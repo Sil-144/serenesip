@@ -79,6 +79,8 @@ nav {
   padding: 30px 0;
   background-color: #49281a;
   text-align: center;
+  position: sticky;
+  top: 0px;
 }
 nav a {
   color: #f0e2c5;
@@ -88,6 +90,27 @@ nav a {
 }
 nav a:hover {
   border-bottom: 2px solid #f0e2c5;
+}
+.container {
+  width: 200px;
+  height: 150px;
+  margin: 20px auto;
+  position: relative;
+  /* background : color image repeat attachment position */
+}
+.bg-small {
+  position: absolute;
+  left: 200px;
+  background-image: url(images/bg-img3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.bg-large {
+  position: absolute;
+  right: 200px;
+  background-image: url(images/bg-img1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 /* overmenu section */
 #ourmenu,
@@ -101,8 +124,6 @@ nav a:hover {
   font-family: "Playfair Display SC", serif;
   font-size: 2rem;
   color: #49281a;
-}
-.menu {
 }
 /* about us section */
 #aboutus p,
