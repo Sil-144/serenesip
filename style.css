@@ -68,18 +68,27 @@ nav a:hover {
 }
 .bg-small {
   position: absolute;
+<<<<<<< HEAD
   left: 150px;
+=======
+  left: 200px;
+>>>>>>> 9bea41496943b9ef9e1ef9147b76b57092a6a31e
   background-image: url(images/bg-img3.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
 .bg-large {
   position: absolute;
+<<<<<<< HEAD
   right: 150px;
+=======
+  right: 200px;
+>>>>>>> 9bea41496943b9ef9e1ef9147b76b57092a6a31e
   background-image: url(images/bg-img1.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
+<<<<<<< HEAD
 .card {
   border: 1px solid black;
   padding: 10px;
@@ -118,6 +127,8 @@ nav a:hover {
   padding: 10px;
   border-radius: 5px;
 }
+=======
+>>>>>>> 9bea41496943b9ef9e1ef9147b76b57092a6a31e
 /* overmenu section */
 #ourmenu,
 #aboutus,
@@ -132,10 +143,14 @@ nav a:hover {
   color: #49281a;
   margin-left: 80px;
 }
+<<<<<<< HEAD
 #ourmenu h3 {
   margin-left: 80px;
 }
 
+=======
+/* about us section */
+>>>>>>> 9bea41496943b9ef9e1ef9147b76b57092a6a31e
 #aboutus p,
 #contactus p {
   padding: 10px 0;
