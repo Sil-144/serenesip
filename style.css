@@ -192,3 +192,83 @@ footer {
   position: relative;
   right: 10px;
 }
+@media (max-width: 1024px) {
+  /* Header Section */
+  header h1 {
+    font-size: 2.5rem;
+  }
+  header p {
+    font-size: 1rem;
+  }
+  header a {
+    padding: 8px 25px;
+  }
+  .bg-small {
+    background-image: url();
+    left: 100px;
+  }
+  .bg-large {
+    background-image: url();
+    right: 100px;
+  }
+
+  /* Navigation */
+  nav {
+    padding: 20px 0;
+  }
+  nav a {
+    margin-right: 15px;
+    padding: 6px;
+  }
+
+  /* Menu Section */
+  .menu {
+    margin: 20px 0;
+  }
+  .card {
+    width: 250px;
+    margin: 10px;
+  }
+  .dis-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* About Us Section */
+  #aboutus p {
+    font-size: 1rem;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  /* Contact Us Section */
+  #contactus form {
+    width: 80%;
+  }
+  #contactus div {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .form-label {
+    width: 40%;
+  }
+  .form-control {
+    width: 55%;
+  }
+  .but {
+    width: 150px;
+    margin-left: 40%;
+  }
+
+  /* Footer Section */
+  footer p {
+    font-size: 0.9rem;
+  }
+
+  /* Scroll to Top Button */
+  #to-top {
+    margin-left: 20px;
+  }
+}
