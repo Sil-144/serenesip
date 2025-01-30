@@ -68,16 +68,14 @@ nav a:hover {
 }
 .bg-small {
   position: absolute;
-  left: 150px;
-  left: 200px;
+  left: 100px;
   background-image: url(images/bg-img3.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
 .bg-large {
   position: absolute;
-  right: 150px;
-  right: 200px;
+  right: 100px;
   background-image: url(images/bg-img1.png);
   background-repeat: no-repeat;
   background-size: contain;
